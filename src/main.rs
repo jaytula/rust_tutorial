@@ -163,7 +163,7 @@ fn main_lesson_16() {
   println!("{}", st2);  
 }
 
-fn main() {
+fn main_lesson_17() {
   let st3 = String::from("x r t b h k k a m c");
   let mut v1: Vec<char> = st3.chars().collect();
   v1.sort();
@@ -185,4 +185,7 @@ fn main() {
   for char in st8.bytes() {
     println!("{}", char);
   }
+}
+
+fn main() {
 }
