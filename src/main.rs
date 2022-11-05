@@ -277,6 +277,10 @@ fn get_sum_3(x: i32, y: i32) -> i32 {
   return x + y;
 }
 
-fn main() {
+fn main_lesson_24() {
   println!("{}", get_sum_3(6, 7));
+}
+
+fn main() {
+  
 }
