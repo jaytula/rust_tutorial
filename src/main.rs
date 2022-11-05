@@ -284,7 +284,10 @@ fn main_lesson_24() {
 fn get_2(x: i32) -> (i32, i32) {
   return (x+1, x+2);
 }
-fn main() {
+fn main_lesson_25() {
   let (val_1, val_2) = get_2(7);
   println!("Nums : {} {}", val_1, val_2);
+}
+
+fn main() {
 }
