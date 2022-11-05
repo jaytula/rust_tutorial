@@ -265,5 +265,10 @@ fn main_lesson_22() {
   get_sum(5, 4);
 }
 
+fn get_sum_2(x: i32, y: i32) -> i32 {
+  x + y
+}
+
 fn main() {
+  println!("{}", get_sum_2(5, 7));
 }
