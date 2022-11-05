@@ -26,7 +26,7 @@ fn main_lesson_02() {
   println!("I'm {} and I want want ${}", age, ONE_MIL);
 }
 
-fn main() {
+fn main_lesson_03() {
   // Unsigned integer: u8, u16, u32, u64, u128, u256, usize
   // Signed integer: i8, i16, i32, i64, i128, isize
   println!("Max u32 : {}", u32::MAX);
@@ -35,4 +35,7 @@ fn main() {
   println!("Max u128 : {}", u128::MAX);
   println!("Max f32 : {}", f32::MAX);
   println!("Max f64 : {}", f64::MAX);
+}
+
+fn main() {
 }
