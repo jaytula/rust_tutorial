@@ -281,6 +281,10 @@ fn main_lesson_24() {
   println!("{}", get_sum_3(6, 7));
 }
 
+fn get_2(x: i32) -> (i32, i32) {
+  return (x+1, x+2);
+}
 fn main() {
-  
+  let (val_1, val_2) = get_2(7);
+  println!("Nums : {} {}", val_1, val_2);
 }
