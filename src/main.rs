@@ -249,5 +249,10 @@ fn main_lesson_20() {
   println!("Pop: {:?}", vec2.pop());
 }
 
+fn say_hello() {
+  println!("Hello");
+}
+
 fn main() {
+  say_hello();
 }
