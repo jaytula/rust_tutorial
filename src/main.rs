@@ -127,11 +127,16 @@ fn main_lesson_12() {
   }
 }
 
-fn main() {
+fn main_lesson_13() {
   let arr_2 = [1,2,3,4,5,6,7,8,9];
   let mut loop_idx = 0;
   while loop_idx < arr_2.len() {
     println!("Arr : {}", arr_2[loop_idx]);
     loop_idx += 1;
   }
+}
+
+fn main() {
+  let arr_2 = [1,2,3,4,5,6,7,8,9];
+  let mut loop_idx = 0;
 }
