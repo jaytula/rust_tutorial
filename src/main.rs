@@ -49,7 +49,7 @@ fn main_lesson_05() {
   println!("f64 : {}", num_2 + 0.111111111111111);
 }
 
-fn main() {
+fn main_lesson_06() {
   let mut num_3: u32 = 5;
   let num_4: u32 = 4;
   num_3 += 1;
@@ -58,4 +58,7 @@ fn main() {
   println!("{} * 4 = {}", num_3, num_3 * num_4);
   println!("{} / 4 = {}", num_3, num_3 / num_4);
   println!("{} % 4 = {}", num_3, num_3 % num_4);
+}
+
+fn main() {
 }
