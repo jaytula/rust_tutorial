@@ -42,9 +42,12 @@ fn main_lesson_04() {
   let my_grade = 'A';
 }
 
-fn main() {
+fn main_lesson_05() {
   let num_1: f32 = 1.111111111111111;
   println!("f32 : {}", num_1 + 0.111111111111111);
   let num_2: f64 = 1.111111111111111;
   println!("f64 : {}", num_2 + 0.111111111111111);
+}
+
+fn main() {
 }
