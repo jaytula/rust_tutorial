@@ -297,7 +297,11 @@ fn sum_list(list: &[i32]) -> i32 {
   sum
 }
 
-fn main() {
+fn main_lesson_26() {
   let num_list = vec![1,2,3,4,5];
   println!("Sum of list = {}", sum_list(&num_list));
+}
+
+fn main() {
+  
 }
