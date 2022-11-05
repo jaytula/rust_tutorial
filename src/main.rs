@@ -253,6 +253,10 @@ fn say_hello() {
   println!("Hello");
 }
 
-fn main() {
+fn main_lesson_21() {
   say_hello();
+}
+
+fn main() {
+
 }
