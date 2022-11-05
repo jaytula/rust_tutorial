@@ -228,7 +228,7 @@ fn main_lesson_19() {
   println!("Is today the weekend {}", today.is_weekend());
 }
 
-fn main() {
+fn main_lesson_20() {
   let vec1: Vec<i32> = Vec::new();
   let mut vec2 = vec![1,2,3,4];
   vec2.push(5);
@@ -247,4 +247,7 @@ fn main() {
   }
   println!("Vec Length {}", vec2.len());
   println!("Pop: {:?}", vec2.pop());
+}
+
+fn main() {
 }
