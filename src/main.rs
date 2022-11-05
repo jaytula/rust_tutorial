@@ -108,7 +108,7 @@ fn main_lesson_11() {
   };
 }
 
-fn main() {
+fn main_lesson_12() {
   let arr_2 = [1,2,3,4,5,6,7,8,9];
   println!("1st : {}", arr_2[0]);
   println!("Length: {}", arr_2.len());
@@ -125,4 +125,9 @@ fn main() {
     println!("Val : {}", arr_2[loop_idx]);
     loop_idx += 1;
   }
+}
+
+fn main() {
+  let arr_2 = [1,2,3,4,5,6,7,8,9];
+  println!("1st : {}", arr_2[0]);
 }
