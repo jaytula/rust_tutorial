@@ -38,4 +38,6 @@ fn main_lesson_03() {
 }
 
 fn main() {
+  let is_true = true;
+  let my_grade = 'A';
 }
