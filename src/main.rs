@@ -16,7 +16,7 @@ fn main_lesson_01() {
     println!("Hello, {}! {}", name.trim_end(), greeting);
 }
 
-fn main() {
+fn main_lesson_02() {
   const ONE_MIL: u32 = 1_000_000;
   const PI: f32 = 3.141592;
   let age = "47";
@@ -24,4 +24,7 @@ fn main() {
     .expect("Age wasn't assigned a number");
   age = age + 1;
   println!("I'm {} and I want want ${}", age, ONE_MIL);
+}
+
+fn main() {
 }
