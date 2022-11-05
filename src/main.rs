@@ -60,7 +60,10 @@ fn main_lesson_06() {
   println!("{} % 4 = {}", num_3, num_3 % num_4);
 }
 
-fn main() {
+fn main_lesson_07() {
   let random_num = rand::thread_rng().gen_range(1..101);
   println!("Random : {}", random_num);
+}
+
+fn main() {
 }
