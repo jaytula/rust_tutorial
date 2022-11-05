@@ -78,7 +78,7 @@ fn main_lesson_08() {
   }
 }
 
-fn main() {
+fn main_lesson_09() {
   let mut my_age = 47;
   let can_vote = if my_age >= 18 {
     true
@@ -86,4 +86,7 @@ fn main() {
     false
   };
   println!("Can Vote : {}", can_vote);
+}
+
+fn main() {
 }
