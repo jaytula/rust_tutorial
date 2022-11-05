@@ -50,11 +50,12 @@ fn main_lesson_05() {
 }
 
 fn main() {
-  let num_3: u32 = 5;
+  let mut num_3: u32 = 5;
   let num_4: u32 = 4;
-  println!("5 + 4 = {}", num_3 + num_4);
-  println!("5 - 4 = {}", num_3 - num_4);
-  println!("5 * 4 = {}", num_3 * num_4);
-  println!("5 / 4 = {}", num_3 / num_4);
-  println!("5 % 4 = {}", num_3 % num_4);
+  num_3 += 1;
+  println!("{} + 4 = {}", num_3, num_3 + num_4);
+  println!("{} - 4 = {}", num_3, num_3 - num_4);
+  println!("{} * 4 = {}", num_3, num_3 * num_4);
+  println!("{} / 4 = {}", num_3, num_3 / num_4);
+  println!("{} % 4 = {}", num_3, num_3 % num_4);
 }
