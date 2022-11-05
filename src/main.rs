@@ -151,7 +151,7 @@ fn main_lesson_15() {
   println!("Age : {}", v1);
 }
 
-fn main() {
+fn main_lesson_16() {
   let mut st1 = String::new();
   st1.push('A');
   st1.push_str(" word");
@@ -161,4 +161,7 @@ fn main() {
 
   let st2 = st1.replace("A", "Another");
   println!("{}", st2);  
+}
+
+fn main() {
 }
