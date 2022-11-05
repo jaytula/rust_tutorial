@@ -257,6 +257,10 @@ fn main_lesson_21() {
   say_hello();
 }
 
-fn main() {
+fn get_sum(x: i32, y: i32) {
+  println!("{} + {} = {}", x, y, x+y);
+}
 
+fn main() {
+  get_sum(5, 4);
 }
