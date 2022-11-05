@@ -88,7 +88,7 @@ fn main_lesson_09() {
   println!("Can Vote : {}", can_vote);
 }
 
-fn main() {
+fn main_lesson_10() {
   let age2 = 8;
   match age2 {
     1..=18 => println!("Important Birthday"),
@@ -96,4 +96,7 @@ fn main() {
     65..=i32::MAX => println!("Important Birthday"),
     _ => println!("Not an Important Birthday"),
   };
+}
+
+fn main() {
 }
