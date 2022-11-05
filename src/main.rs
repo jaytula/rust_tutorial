@@ -37,7 +37,10 @@ fn main_lesson_03() {
   println!("Max f64 : {}", f64::MAX);
 }
 
-fn main() {
+fn main_lesson_04() {
   let is_true = true;
   let my_grade = 'A';
+}
+
+fn main() {
 }
