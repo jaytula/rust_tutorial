@@ -194,7 +194,7 @@ fn main_lesson_18() {
   println!("{}", int3_u32);
 }
 
-fn main() {
+fn main_lesson_19() {
   enum Day {
     Monday,
     Tuesday,
@@ -226,4 +226,7 @@ fn main() {
   }
 
   println!("Is today the weekend {}", today.is_weekend());
+}
+
+fn main() {
 }
