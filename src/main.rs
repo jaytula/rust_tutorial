@@ -99,4 +99,11 @@ fn main_lesson_10() {
 }
 
 fn main() {
+  let my_age = 18;
+  let voting_age = 18;
+  match my_age.cmp(&voting_age) {
+    Ordering::Less => println!("Can't vote"),
+    Ordering::Greater => println!("Can vote"),
+    Ordering::Equal => println!("You gained the right to vote"),
+  };
 }
