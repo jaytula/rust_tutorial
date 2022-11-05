@@ -65,7 +65,7 @@ fn main_lesson_07() {
   println!("Random : {}", random_num);
 }
 
-fn main() {
+fn main_lesson_08() {
   let age: i32 = 8;
   if (age >= 1) && (age <= 18) {
     println!("Important Birthday");
@@ -76,4 +76,7 @@ fn main() {
   } else {
     println!("Not an Important Birthday");
   }
+}
+
+fn main() {
 }
