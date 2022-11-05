@@ -98,7 +98,7 @@ fn main_lesson_10() {
   };
 }
 
-fn main() {
+fn main_lesson_11() {
   let my_age = 18;
   let voting_age = 18;
   match my_age.cmp(&voting_age) {
@@ -106,4 +106,7 @@ fn main() {
     Ordering::Greater => println!("Can vote"),
     Ordering::Equal => println!("You gained the right to vote"),
   };
+}
+
+fn main() {
 }
