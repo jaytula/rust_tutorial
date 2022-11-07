@@ -309,9 +309,24 @@ fn get_sum_gen<T:Add<Output = T>>(x: T, y: T) -> T {
 }
 
 fn main_lesson_27() {
-  println!("5 + 4 = {}", get_sum_gen(5, 4))
-  println!("5.2 + 4.6 = {}", get_sum_gen(5.2, 4.6))
+  println!("5 + 4 = {}", get_sum_gen(5, 4));
+  println!("5.2 + 4.6 = {}", get_sum_gen(5.2, 4.6));
 }
 
+/*  
+  Stack : Stores values in a last in first out format
+  Heap : When putting data on the heap you request a certain amount
+    of space. The OS finds space available and returns an address
+    for that space called a pointer.
+
+  RULES:
+  1. Each value has a variable that's called its owner
+  2. There is only one owner at a time
+  3. When the owner goes out of scope the value disappears
+*/
 fn main() {
+  let str1 = String::from("World");
+  // let str2 = str1;
+  let str2 = str1.clone();
+  println!("Hello {}", str1);
 }
