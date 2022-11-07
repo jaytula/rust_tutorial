@@ -340,10 +340,7 @@ fn change_string(name: &mut String) {
 }
 
 fn main() {
-  let str1 = String::from("World");
-  // let str2 = str1;
-  let str2 = str1.clone();
-  let str3: String = print_return_str(str1);
-  println!("str3 = {}", str3);
-  // print_str(str1);
+  let mut str1 = String::from("Derek");
+  change_string(&mut str1);
+  println!("str is {}", str1);
 }
