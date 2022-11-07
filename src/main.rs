@@ -339,8 +339,11 @@ fn change_string(name: &mut String) {
   println!("Message : {}", name);
 }
 
-fn main() {
+fn main_lesson_28() {
   let mut str1 = String::from("Derek");
   change_string(&mut str1);
   println!("str is {}", str1);
+}
+
+fn main() {
 }
