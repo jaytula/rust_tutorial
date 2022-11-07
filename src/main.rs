@@ -367,7 +367,7 @@ fn main_lesson_29() {
   }
 }
 
-fn main() {
+fn main_lesson_30() {
   struct Customer {
     name: String,
     address: String,
@@ -381,4 +381,7 @@ fn main() {
   };
 
   bob.address = String::from("505 Main St");
+}
+
+fn main() {
 }
