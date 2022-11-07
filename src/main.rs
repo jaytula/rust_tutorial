@@ -368,5 +368,17 @@ fn main_lesson_29() {
 }
 
 fn main() {
-  
+  struct Customer {
+    name: String,
+    address: String,
+    balance: f32,
+  }
+
+  let mut bob = Customer{
+    name: String::from("Bob Smith"),
+    address: String::from("555 Main St"),
+    balance: 234.50
+  };
+
+  bob.address = String::from("505 Main St");
 }
