@@ -347,7 +347,7 @@ fn main_lesson_28() {
 
 use std::collections::HashMap;
 
-fn main() {
+fn main_lesson_29() {
   let mut heroes = HashMap::new();
   heroes.insert("Superman", "Clark Kent");
   heroes.insert("Batman", "Bruce Wayne");
@@ -365,4 +365,8 @@ fn main() {
       None => println!("Batman is not a hero"),
     }
   }
+}
+
+fn main() {
+  
 }
