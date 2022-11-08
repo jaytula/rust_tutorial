@@ -417,5 +417,11 @@ fn main_lesson_31() {
   println!("Circle Area : {}", circ.area());
 }
 
+// Crates : Modules that produce a library or executable
+// Modules : Organize and handle privacy
+// Packages: Build, test and share crates
+// Paths : A way of naming an item such as a struct, function
+
 fn main() {
+  
 }
