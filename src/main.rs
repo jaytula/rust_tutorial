@@ -384,4 +384,13 @@ fn main_lesson_30() {
 }
 
 fn main() {
+  struct Rectangle<T, U> {
+    length: T,
+    height: U,
+  }
+  let rec = Rectangle{length: 4, height: 10.5};
+  trait Shape {
+    fn new(length: f32, width: f32) -> Self;
+    fn area(&self) -> f32;
+  }
 }
