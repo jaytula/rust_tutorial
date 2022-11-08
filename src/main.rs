@@ -425,6 +425,10 @@ fn main_lesson_31() {
 mod restaurant;
 use crate::restaurant::order_food;
 
-fn main() {
+fn main_lesson_32() {
   order_food();
+}
+
+fn main() {
+  
 }
