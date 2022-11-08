@@ -438,5 +438,25 @@ fn main_lesson_34() {
   println!("{}", lil_arr[10]);
 }
 
+/* Result has 2 variants Ok and Err
+   enum Result<T, E> {
+    Ok(T),
+    Err(E),
+   }
+   // Where T represents the data typeof the value and returns and E
+   // the type of error
+*/
+  
+
 fn main() {
+  let path = "lines.txt";
+  let output = File::create(path);
+  let mut output = match output {
+    Ok(file) => file,
+    Err(error) => {
+      panic!("Problem creating file : {:?}", error);
+    }
+  };
+  write!(output, "Just some\nRandom words").expect("Failed to write to file");
+  
 }
