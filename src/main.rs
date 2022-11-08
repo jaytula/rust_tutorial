@@ -422,6 +422,9 @@ fn main_lesson_31() {
 // Packages: Build, test and share crates
 // Paths : A way of naming an item such as a struct, function
 
+mod restaurant;
+use crate::restaurant::order_food;
+
 fn main() {
-  
+  order_food();
 }
