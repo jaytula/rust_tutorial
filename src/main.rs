@@ -433,7 +433,10 @@ fn main_lesson_33() {
   panic!("Terrible Error");
 }
 
-fn main() {
+fn main_lesson_34() {
   let lil_arr = [1,2];
   println!("{}", lil_arr[10]);
+}
+
+fn main() {
 }
