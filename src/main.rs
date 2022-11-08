@@ -430,5 +430,5 @@ fn main_lesson_32() {
 }
 
 fn main() {
-  
+  panic!("Terrible Error");
 }
