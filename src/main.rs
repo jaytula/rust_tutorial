@@ -429,6 +429,10 @@ fn main_lesson_32() {
   order_food();
 }
 
-fn main() {
+fn main_lesson_33() {
   panic!("Terrible Error");
+}
+
+fn main() {
+  
 }
