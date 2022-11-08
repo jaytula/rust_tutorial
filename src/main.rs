@@ -383,7 +383,7 @@ fn main_lesson_30() {
   bob.address = String::from("505 Main St");
 }
 
-fn main() {
+fn main_lesson_31() {
   const PI: f32 = 3.14159;
   trait Shape {
     fn new(length: f32, width: f32) -> Self;
@@ -415,4 +415,7 @@ fn main() {
 
   println!("Rec Area : {}", rec.area());
   println!("Circle Area : {}", circ.area());
+}
+
+fn main() {
 }
