@@ -448,7 +448,7 @@ fn main_lesson_34() {
 */
   
 
-fn main() {
+fn main_lesson_34() {
   let path = "lines.txt";
   let output = File::create(path);
   let mut output = match output {
@@ -477,4 +477,7 @@ fn main() {
       _other_error => panic!("problem opening file : {:?}", error),
     },
   };
+}
+
+fn main() {
 }
