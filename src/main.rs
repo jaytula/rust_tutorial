@@ -479,7 +479,7 @@ fn main_lesson_35() {
   };
 }
 
-fn main() {
+fn main_lesson_36() {
   let mut arr_it = [1,2,3,4];
   for val in arr_it.iter() {
     println!("{}", val);
@@ -487,4 +487,8 @@ fn main() {
   // arr_it.into_iter()
   let mut iter1 = arr_it.iter();
   println!("1st : {:?}", iter1.next());
+}
+
+fn main() {
+  
 }
