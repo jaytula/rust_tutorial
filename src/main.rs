@@ -448,7 +448,7 @@ fn main_lesson_34() {
 */
   
 
-fn main_lesson_34() {
+fn main_lesson_35() {
   let path = "lines.txt";
   let output = File::create(path);
   let mut output = match output {
@@ -480,4 +480,11 @@ fn main_lesson_34() {
 }
 
 fn main() {
+  let mut arr_it = [1,2,3,4];
+  for val in arr_it.iter() {
+    println!("{}", val);
+  }
+  // arr_it.into_iter()
+  let mut iter1 = arr_it.iter();
+  println!("1st : {:?}", iter1.next());
 }
