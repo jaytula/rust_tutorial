@@ -489,7 +489,7 @@ fn main_lesson_36() {
   println!("1st : {:?}", iter1.next());
 }
 
-fn main_lesson_36() {
+fn main_lesson_37() {
     // Closures...
     // let var_name = |parameters| -> return_type {BODY}
 
