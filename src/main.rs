@@ -490,5 +490,12 @@ fn main_lesson_36() {
 }
 
 fn main() {
-  
+    // Closures...
+    // let var_name = |parameters| -> return_type {BODY}
+
+    let can_vote = |age: i32| {
+      age >= 18
+    };
+
+    println!("Can vote : {}", can_vote(8));
 }
