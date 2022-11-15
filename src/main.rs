@@ -489,7 +489,7 @@ fn main_lesson_36() {
   println!("1st : {:?}", iter1.next());
 }
 
-fn main() {
+fn main_lesson_36() {
     // Closures...
     // let var_name = |parameters| -> return_type {BODY}
 
@@ -498,4 +498,7 @@ fn main() {
     };
 
     println!("Can vote : {}", can_vote(8));
+}
+
+fn main() {
 }
