@@ -500,7 +500,7 @@ fn main_lesson_37() {
     println!("Can vote : {}", can_vote(8));
 }
 
-fn main() {
+fn main_lesson_38() {
   let mut samp1 = 5;
   let print_var = || println!("samp1 = {}", samp1);
   print_var();
@@ -510,4 +510,7 @@ fn main() {
   println!("samp1 = {}", samp1);
   samp1 = 10;
   println!("samp1 = {}", samp1);
+}
+
+fn main() {
 }
