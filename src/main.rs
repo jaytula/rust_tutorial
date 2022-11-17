@@ -501,4 +501,13 @@ fn main_lesson_37() {
 }
 
 fn main() {
+  let mut samp1 = 5;
+  let print_var = || println!("samp1 = {}", samp1);
+  print_var();
+  samp1 = 10;
+  let mut change_var = || samp1 += 1;
+  change_var();
+  println!("samp1 = {}", samp1);
+  samp1 = 10;
+  println!("samp1 = {}", samp1);
 }
