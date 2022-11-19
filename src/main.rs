@@ -522,7 +522,7 @@ fn main_lesson_39() {
   println!("5 * 4 = {}", use_func(5, 4, prod));
 }
 
-fn main() {
+fn main_lesson_40() {
   // Box smart pointer
 
   // Stack : Stored values in LIFO. Data on the stack must have a defined
@@ -530,4 +530,7 @@ fn main() {
 
   let b_int1 = Box::new(10);
   println!("b_int1 = {}", b_int1);
+}
+
+fn main() {
 }
