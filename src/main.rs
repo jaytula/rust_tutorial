@@ -512,7 +512,7 @@ fn main_lesson_38() {
   println!("samp1 = {}", samp1);
 }
 
-fn main() {
+fn main_lesson_39() {
   fn use_func<T>(a: i32, b: i32, func: T) -> i32 where T: Fn(i32, i32) -> i32 {
     func(a, b)
   }
@@ -520,4 +520,7 @@ fn main() {
   let prod = |a, b| a*b;
   println!("5 + 4 = {}", use_func(5, 4, sum));
   println!("5 * 4 = {}", use_func(5, 4, prod));
+}
+
+fn main() {
 }
