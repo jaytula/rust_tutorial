@@ -532,7 +532,7 @@ fn main_lesson_40() {
   println!("b_int1 = {}", b_int1);
 }
 
-fn main() {
+fn main_lesson_41() {
   struct TreeNode<T> {
     pub left: Option<Box<TreeNode<T>>>,
     pub right: Option<Box<TreeNode<T>>>,
@@ -556,4 +556,7 @@ fn main() {
   let node1 = TreeNode::new(1)
   .left(TreeNode::new(2))
   .right(TreeNode::new(3));
+}
+
+fn main() {
 }
