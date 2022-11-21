@@ -559,4 +559,8 @@ fn main_lesson_41() {
 }
 
 fn main() {
+  // Common problems with parallel programming involve:
+  // 1. Thread are accessing data in the wrong order
+  // 2. Threads are blocked from executing because of confusion
+  // over requirements to proceed with execution
 }
