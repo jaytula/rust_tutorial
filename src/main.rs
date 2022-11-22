@@ -567,7 +567,7 @@ fn main() {
   // 2. Threads are blocked from executing because of confusion
   // over requirements to proceed with execution
 
-  thread::spawn(|| {
+  let thread1 = thread::spawn(|| {
     for i in 1..25 {
       println!("Spawned thread : {}", i);
       thread::sleep(Duration::from_millis(1));
@@ -578,4 +578,6 @@ fn main() {
     println!("Main thread : {}", i);
     thread::sleep(Duration::from_millis(1));
   }
+
+  thread1.join().unwrap();
 }
