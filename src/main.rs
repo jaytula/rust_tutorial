@@ -561,7 +561,7 @@ fn main_lesson_41() {
 use std::thread;
 use std::time::Duration;
 
-fn main() {
+fn main_lesson_42() {
   // Common problems with parallel programming involve:
   // 1. Thread are accessing data in the wrong order
   // 2. Threads are blocked from executing because of confusion
@@ -580,4 +580,7 @@ fn main() {
   }
 
   thread1.join().unwrap();
+}
+
+fn main() {
 }
