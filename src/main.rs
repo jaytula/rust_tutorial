@@ -582,7 +582,7 @@ fn main_lesson_42() {
   thread1.join().unwrap();
 }
 
-fn main() {
+fn main_lesson_43() {
   pub struct Bank {
     balance: f32
   }
@@ -601,4 +601,8 @@ fn main() {
   thread::spawn(|| {
     customer(&mut bank) 
   }).join().unwrap();
+}
+
+fn main() {
+  
 }
