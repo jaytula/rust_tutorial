@@ -599,10 +599,11 @@ fn main_lesson_43() {
   }
 
   thread::spawn(|| {
-    customer(&mut bank) 
+    // customer(&mut bank) 
+    // Comment out because: error[E0373]: closure may outlive the current function, but it borrows `bank`, which is owned by the current function
   }).join().unwrap();
 }
 
 fn main() {
-  
+
 }
